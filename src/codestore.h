@@ -16,6 +16,14 @@ extern "C" {
 
 	TESTLIB_API void print_hello();
 
+	TESTLIB_API const char* print_string(const char* str);
+
+	TESTLIB_API int add_two_int(int a, int b);
+
+	TESTLIB_API float substract_two_float(float a, float b);
+
+	TESTLIB_API int multi_two_int(int* a, int* b);
+
 #ifdef __cplusplus
 }
 #endif
