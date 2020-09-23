@@ -7,7 +7,7 @@
 #define TESTLIB_API __declspec(dllimport)
 #endif
 #else
-#define TEST_LIB_API
+#define TESTLIB_API
 #endif
 
 #ifdef __cplusplus

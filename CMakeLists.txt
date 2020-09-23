@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 project(codestore)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}-std=c++11 -Wall -O0 -ggdb")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -O0 -ggdb")
 set(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin/)
 include_directories(${CMAKE_SOURCE_DIR}/include/)
 link_directories(${CMAKE_SOURCE_DIR}/libs/)
